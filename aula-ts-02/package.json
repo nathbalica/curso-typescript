@@ -1,0 +1,31 @@
+{
+  "name": "exercicio__node_e_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "node dist/index.js"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "compilerOptions": {
+		"outDir": "dist",
+		"esModuleInterop": true,
+		"module": "CommonJS",
+		"moduleResolution": "Node",
+		"baseUrl": "src"
+	},
+	"ts-node": {
+		"esm": true
+	}
+}
+
+
