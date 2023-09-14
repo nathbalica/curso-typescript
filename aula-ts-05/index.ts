@@ -1,3 +1,4 @@
+
 const numbers: number[] = [1,2,3,4,5];
 const anwsers: boolean[] = [true, false, false, true, false];
 const strings: string[] = ["one", "two", "three", "four", "five"];

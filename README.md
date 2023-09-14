@@ -1,10 +1,24 @@
 # curso-typescript
 
-npm i -D typescript
-npm i -D nodemon ts-node
-
-npm run dev
-
+npm init -y # cria um projeto node
+npm i express # instalação da biblioteca
+npm i -D typescript ts-node nodemon @types/express @types/node # instalação dos arquivos de definição
 npx tsc --init
 
-npx tsc
+
+configs
+
+```json
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "baseUrl": "src",
+  },
+  "ts-node": {
+    "esm": true
+  },
+}
+```
